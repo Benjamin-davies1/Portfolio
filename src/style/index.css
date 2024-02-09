@@ -1,3 +1,29 @@
+body header {
+  height: 100px;
+  background-color: rgb(255, 255, 93);
+}
 body #top {
-  color: red;
+  background-color: grey;
+}
+body #top main h1 {
+  color: green;
+}
+body #top main h2 {
+  color: blue;
+  display: block;
+}
+body #top main h2 .hiddenText {
+  display: none;
+}
+body #top main h2:hover {
+  color: black;
+  transition: 0.5s;
+}
+body #top main h2:hover .hiddenText {
+  color: blue;
+  display: flex;
+  padding: 50px 0px;
+}
+body #middle {
+  background-color: aqua;
 }/*# sourceMappingURL=index.css.map */
